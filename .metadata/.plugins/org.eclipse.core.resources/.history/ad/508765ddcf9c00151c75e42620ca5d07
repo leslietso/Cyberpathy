@@ -1,0 +1,18 @@
+/*
+ * mpu6050.h
+ *
+ *  Created on: Dec 7, 2015
+ *      Author: Leslie
+ */
+
+#ifndef MPU6050_H_
+#define MPU6050_H_
+
+#include "mpu6050.h"
+
+#define MPU_addr=0x68;  // I2C address of the MPU-6050
+#define WUP_addr=0x6B;  // I2C wake up address of the MPU-6050
+
+
+
+#endif /* MPU6050_H_ */

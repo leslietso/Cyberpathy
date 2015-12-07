@@ -1,0 +1,729 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+-include ../makefile.local
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS_QUOTED += \
+"../Generated_Code/BitIoLdd4.c" \
+"../Generated_Code/BitIoLdd5.c" \
+"../Generated_Code/BitIoLdd6.c" \
+"../Generated_Code/CDC1.c" \
+"../Generated_Code/CLS1.c" \
+"../Generated_Code/CS1.c" \
+"../Generated_Code/Cpu.c" \
+"../Generated_Code/FMSTR1.c" \
+"../Generated_Code/FMSTR_UART1.c" \
+"../Generated_Code/GI2C1.c" \
+"../Generated_Code/I2C2.c" \
+"../Generated_Code/KSDK1.c" \
+"../Generated_Code/LED1.c" \
+"../Generated_Code/LED2.c" \
+"../Generated_Code/LED3.c" \
+"../Generated_Code/LEDpin4.c" \
+"../Generated_Code/LEDpin5.c" \
+"../Generated_Code/LEDpin6.c" \
+"../Generated_Code/MMA1.c" \
+"../Generated_Code/PE_LDD.c" \
+"../Generated_Code/Rx1.c" \
+"../Generated_Code/Tx1.c" \
+"../Generated_Code/USB1.c" \
+"../Generated_Code/USBInit1.c" \
+"../Generated_Code/UTIL1.c" \
+"../Generated_Code/Vectors.c" \
+"../Generated_Code/WAIT1.c" \
+"../Generated_Code/freemaster_Kxx.c" \
+"../Generated_Code/freemaster_appcmd.c" \
+"../Generated_Code/freemaster_bdm.c" \
+"../Generated_Code/freemaster_can.c" \
+"../Generated_Code/freemaster_pipes.c" \
+"../Generated_Code/freemaster_protocol.c" \
+"../Generated_Code/freemaster_rec.c" \
+"../Generated_Code/freemaster_scope.c" \
+"../Generated_Code/freemaster_serial.c" \
+"../Generated_Code/freemaster_sfio.c" \
+"../Generated_Code/freemaster_tsa.c" \
+"../Generated_Code/freemaster_tsa_table.c" \
+"../Generated_Code/usb_cdc.c" \
+"../Generated_Code/usb_cdc_pstn.c" \
+"../Generated_Code/usb_class.c" \
+"../Generated_Code/usb_dci_kinetis.c" \
+"../Generated_Code/usb_descriptor.c" \
+"../Generated_Code/usb_driver.c" \
+"../Generated_Code/usb_framework.c" \
+"../Generated_Code/wdt_kinetis.c" \
+
+C_SRCS += \
+../Generated_Code/BitIoLdd4.c \
+../Generated_Code/BitIoLdd5.c \
+../Generated_Code/BitIoLdd6.c \
+../Generated_Code/CDC1.c \
+../Generated_Code/CLS1.c \
+../Generated_Code/CS1.c \
+../Generated_Code/Cpu.c \
+../Generated_Code/FMSTR1.c \
+../Generated_Code/FMSTR_UART1.c \
+../Generated_Code/GI2C1.c \
+../Generated_Code/I2C2.c \
+../Generated_Code/KSDK1.c \
+../Generated_Code/LED1.c \
+../Generated_Code/LED2.c \
+../Generated_Code/LED3.c \
+../Generated_Code/LEDpin4.c \
+../Generated_Code/LEDpin5.c \
+../Generated_Code/LEDpin6.c \
+../Generated_Code/MMA1.c \
+../Generated_Code/PE_LDD.c \
+../Generated_Code/Rx1.c \
+../Generated_Code/Tx1.c \
+../Generated_Code/USB1.c \
+../Generated_Code/USBInit1.c \
+../Generated_Code/UTIL1.c \
+../Generated_Code/Vectors.c \
+../Generated_Code/WAIT1.c \
+../Generated_Code/freemaster_Kxx.c \
+../Generated_Code/freemaster_appcmd.c \
+../Generated_Code/freemaster_bdm.c \
+../Generated_Code/freemaster_can.c \
+../Generated_Code/freemaster_pipes.c \
+../Generated_Code/freemaster_protocol.c \
+../Generated_Code/freemaster_rec.c \
+../Generated_Code/freemaster_scope.c \
+../Generated_Code/freemaster_serial.c \
+../Generated_Code/freemaster_sfio.c \
+../Generated_Code/freemaster_tsa.c \
+../Generated_Code/freemaster_tsa_table.c \
+../Generated_Code/usb_cdc.c \
+../Generated_Code/usb_cdc_pstn.c \
+../Generated_Code/usb_class.c \
+../Generated_Code/usb_dci_kinetis.c \
+../Generated_Code/usb_descriptor.c \
+../Generated_Code/usb_driver.c \
+../Generated_Code/usb_framework.c \
+../Generated_Code/wdt_kinetis.c \
+
+OBJS += \
+./Generated_Code/BitIoLdd4.o \
+./Generated_Code/BitIoLdd5.o \
+./Generated_Code/BitIoLdd6.o \
+./Generated_Code/CDC1.o \
+./Generated_Code/CLS1.o \
+./Generated_Code/CS1.o \
+./Generated_Code/Cpu.o \
+./Generated_Code/FMSTR1.o \
+./Generated_Code/FMSTR_UART1.o \
+./Generated_Code/GI2C1.o \
+./Generated_Code/I2C2.o \
+./Generated_Code/KSDK1.o \
+./Generated_Code/LED1.o \
+./Generated_Code/LED2.o \
+./Generated_Code/LED3.o \
+./Generated_Code/LEDpin4.o \
+./Generated_Code/LEDpin5.o \
+./Generated_Code/LEDpin6.o \
+./Generated_Code/MMA1.o \
+./Generated_Code/PE_LDD.o \
+./Generated_Code/Rx1.o \
+./Generated_Code/Tx1.o \
+./Generated_Code/USB1.o \
+./Generated_Code/USBInit1.o \
+./Generated_Code/UTIL1.o \
+./Generated_Code/Vectors.o \
+./Generated_Code/WAIT1.o \
+./Generated_Code/freemaster_Kxx.o \
+./Generated_Code/freemaster_appcmd.o \
+./Generated_Code/freemaster_bdm.o \
+./Generated_Code/freemaster_can.o \
+./Generated_Code/freemaster_pipes.o \
+./Generated_Code/freemaster_protocol.o \
+./Generated_Code/freemaster_rec.o \
+./Generated_Code/freemaster_scope.o \
+./Generated_Code/freemaster_serial.o \
+./Generated_Code/freemaster_sfio.o \
+./Generated_Code/freemaster_tsa.o \
+./Generated_Code/freemaster_tsa_table.o \
+./Generated_Code/usb_cdc.o \
+./Generated_Code/usb_cdc_pstn.o \
+./Generated_Code/usb_class.o \
+./Generated_Code/usb_dci_kinetis.o \
+./Generated_Code/usb_descriptor.o \
+./Generated_Code/usb_driver.o \
+./Generated_Code/usb_framework.o \
+./Generated_Code/wdt_kinetis.o \
+
+OBJS_QUOTED += \
+"./Generated_Code/BitIoLdd4.o" \
+"./Generated_Code/BitIoLdd5.o" \
+"./Generated_Code/BitIoLdd6.o" \
+"./Generated_Code/CDC1.o" \
+"./Generated_Code/CLS1.o" \
+"./Generated_Code/CS1.o" \
+"./Generated_Code/Cpu.o" \
+"./Generated_Code/FMSTR1.o" \
+"./Generated_Code/FMSTR_UART1.o" \
+"./Generated_Code/GI2C1.o" \
+"./Generated_Code/I2C2.o" \
+"./Generated_Code/KSDK1.o" \
+"./Generated_Code/LED1.o" \
+"./Generated_Code/LED2.o" \
+"./Generated_Code/LED3.o" \
+"./Generated_Code/LEDpin4.o" \
+"./Generated_Code/LEDpin5.o" \
+"./Generated_Code/LEDpin6.o" \
+"./Generated_Code/MMA1.o" \
+"./Generated_Code/PE_LDD.o" \
+"./Generated_Code/Rx1.o" \
+"./Generated_Code/Tx1.o" \
+"./Generated_Code/USB1.o" \
+"./Generated_Code/USBInit1.o" \
+"./Generated_Code/UTIL1.o" \
+"./Generated_Code/Vectors.o" \
+"./Generated_Code/WAIT1.o" \
+"./Generated_Code/freemaster_Kxx.o" \
+"./Generated_Code/freemaster_appcmd.o" \
+"./Generated_Code/freemaster_bdm.o" \
+"./Generated_Code/freemaster_can.o" \
+"./Generated_Code/freemaster_pipes.o" \
+"./Generated_Code/freemaster_protocol.o" \
+"./Generated_Code/freemaster_rec.o" \
+"./Generated_Code/freemaster_scope.o" \
+"./Generated_Code/freemaster_serial.o" \
+"./Generated_Code/freemaster_sfio.o" \
+"./Generated_Code/freemaster_tsa.o" \
+"./Generated_Code/freemaster_tsa_table.o" \
+"./Generated_Code/usb_cdc.o" \
+"./Generated_Code/usb_cdc_pstn.o" \
+"./Generated_Code/usb_class.o" \
+"./Generated_Code/usb_dci_kinetis.o" \
+"./Generated_Code/usb_descriptor.o" \
+"./Generated_Code/usb_driver.o" \
+"./Generated_Code/usb_framework.o" \
+"./Generated_Code/wdt_kinetis.o" \
+
+C_DEPS += \
+./Generated_Code/BitIoLdd4.d \
+./Generated_Code/BitIoLdd5.d \
+./Generated_Code/BitIoLdd6.d \
+./Generated_Code/CDC1.d \
+./Generated_Code/CLS1.d \
+./Generated_Code/CS1.d \
+./Generated_Code/Cpu.d \
+./Generated_Code/FMSTR1.d \
+./Generated_Code/FMSTR_UART1.d \
+./Generated_Code/GI2C1.d \
+./Generated_Code/I2C2.d \
+./Generated_Code/KSDK1.d \
+./Generated_Code/LED1.d \
+./Generated_Code/LED2.d \
+./Generated_Code/LED3.d \
+./Generated_Code/LEDpin4.d \
+./Generated_Code/LEDpin5.d \
+./Generated_Code/LEDpin6.d \
+./Generated_Code/MMA1.d \
+./Generated_Code/PE_LDD.d \
+./Generated_Code/Rx1.d \
+./Generated_Code/Tx1.d \
+./Generated_Code/USB1.d \
+./Generated_Code/USBInit1.d \
+./Generated_Code/UTIL1.d \
+./Generated_Code/Vectors.d \
+./Generated_Code/WAIT1.d \
+./Generated_Code/freemaster_Kxx.d \
+./Generated_Code/freemaster_appcmd.d \
+./Generated_Code/freemaster_bdm.d \
+./Generated_Code/freemaster_can.d \
+./Generated_Code/freemaster_pipes.d \
+./Generated_Code/freemaster_protocol.d \
+./Generated_Code/freemaster_rec.d \
+./Generated_Code/freemaster_scope.d \
+./Generated_Code/freemaster_serial.d \
+./Generated_Code/freemaster_sfio.d \
+./Generated_Code/freemaster_tsa.d \
+./Generated_Code/freemaster_tsa_table.d \
+./Generated_Code/usb_cdc.d \
+./Generated_Code/usb_cdc_pstn.d \
+./Generated_Code/usb_class.d \
+./Generated_Code/usb_dci_kinetis.d \
+./Generated_Code/usb_descriptor.d \
+./Generated_Code/usb_driver.d \
+./Generated_Code/usb_framework.d \
+./Generated_Code/wdt_kinetis.d \
+
+OBJS_OS_FORMAT += \
+./Generated_Code/BitIoLdd4.o \
+./Generated_Code/BitIoLdd5.o \
+./Generated_Code/BitIoLdd6.o \
+./Generated_Code/CDC1.o \
+./Generated_Code/CLS1.o \
+./Generated_Code/CS1.o \
+./Generated_Code/Cpu.o \
+./Generated_Code/FMSTR1.o \
+./Generated_Code/FMSTR_UART1.o \
+./Generated_Code/GI2C1.o \
+./Generated_Code/I2C2.o \
+./Generated_Code/KSDK1.o \
+./Generated_Code/LED1.o \
+./Generated_Code/LED2.o \
+./Generated_Code/LED3.o \
+./Generated_Code/LEDpin4.o \
+./Generated_Code/LEDpin5.o \
+./Generated_Code/LEDpin6.o \
+./Generated_Code/MMA1.o \
+./Generated_Code/PE_LDD.o \
+./Generated_Code/Rx1.o \
+./Generated_Code/Tx1.o \
+./Generated_Code/USB1.o \
+./Generated_Code/USBInit1.o \
+./Generated_Code/UTIL1.o \
+./Generated_Code/Vectors.o \
+./Generated_Code/WAIT1.o \
+./Generated_Code/freemaster_Kxx.o \
+./Generated_Code/freemaster_appcmd.o \
+./Generated_Code/freemaster_bdm.o \
+./Generated_Code/freemaster_can.o \
+./Generated_Code/freemaster_pipes.o \
+./Generated_Code/freemaster_protocol.o \
+./Generated_Code/freemaster_rec.o \
+./Generated_Code/freemaster_scope.o \
+./Generated_Code/freemaster_serial.o \
+./Generated_Code/freemaster_sfio.o \
+./Generated_Code/freemaster_tsa.o \
+./Generated_Code/freemaster_tsa_table.o \
+./Generated_Code/usb_cdc.o \
+./Generated_Code/usb_cdc_pstn.o \
+./Generated_Code/usb_class.o \
+./Generated_Code/usb_dci_kinetis.o \
+./Generated_Code/usb_descriptor.o \
+./Generated_Code/usb_driver.o \
+./Generated_Code/usb_framework.o \
+./Generated_Code/wdt_kinetis.o \
+
+C_DEPS_QUOTED += \
+"./Generated_Code/BitIoLdd4.d" \
+"./Generated_Code/BitIoLdd5.d" \
+"./Generated_Code/BitIoLdd6.d" \
+"./Generated_Code/CDC1.d" \
+"./Generated_Code/CLS1.d" \
+"./Generated_Code/CS1.d" \
+"./Generated_Code/Cpu.d" \
+"./Generated_Code/FMSTR1.d" \
+"./Generated_Code/FMSTR_UART1.d" \
+"./Generated_Code/GI2C1.d" \
+"./Generated_Code/I2C2.d" \
+"./Generated_Code/KSDK1.d" \
+"./Generated_Code/LED1.d" \
+"./Generated_Code/LED2.d" \
+"./Generated_Code/LED3.d" \
+"./Generated_Code/LEDpin4.d" \
+"./Generated_Code/LEDpin5.d" \
+"./Generated_Code/LEDpin6.d" \
+"./Generated_Code/MMA1.d" \
+"./Generated_Code/PE_LDD.d" \
+"./Generated_Code/Rx1.d" \
+"./Generated_Code/Tx1.d" \
+"./Generated_Code/USB1.d" \
+"./Generated_Code/USBInit1.d" \
+"./Generated_Code/UTIL1.d" \
+"./Generated_Code/Vectors.d" \
+"./Generated_Code/WAIT1.d" \
+"./Generated_Code/freemaster_Kxx.d" \
+"./Generated_Code/freemaster_appcmd.d" \
+"./Generated_Code/freemaster_bdm.d" \
+"./Generated_Code/freemaster_can.d" \
+"./Generated_Code/freemaster_pipes.d" \
+"./Generated_Code/freemaster_protocol.d" \
+"./Generated_Code/freemaster_rec.d" \
+"./Generated_Code/freemaster_scope.d" \
+"./Generated_Code/freemaster_serial.d" \
+"./Generated_Code/freemaster_sfio.d" \
+"./Generated_Code/freemaster_tsa.d" \
+"./Generated_Code/freemaster_tsa_table.d" \
+"./Generated_Code/usb_cdc.d" \
+"./Generated_Code/usb_cdc_pstn.d" \
+"./Generated_Code/usb_class.d" \
+"./Generated_Code/usb_dci_kinetis.d" \
+"./Generated_Code/usb_descriptor.d" \
+"./Generated_Code/usb_driver.d" \
+"./Generated_Code/usb_framework.d" \
+"./Generated_Code/wdt_kinetis.d" \
+
+
+# Each subdirectory must supply rules for building sources it contributes
+Generated_Code/BitIoLdd4.o: ../Generated_Code/BitIoLdd4.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #8 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/BitIoLdd4.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/BitIoLdd4.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/BitIoLdd5.o: ../Generated_Code/BitIoLdd5.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #9 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/BitIoLdd5.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/BitIoLdd5.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/BitIoLdd6.o: ../Generated_Code/BitIoLdd6.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #10 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/BitIoLdd6.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/BitIoLdd6.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/CDC1.o: ../Generated_Code/CDC1.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #11 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/CDC1.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/CDC1.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/CLS1.o: ../Generated_Code/CLS1.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #12 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/CLS1.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/CLS1.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/CS1.o: ../Generated_Code/CS1.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #13 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/CS1.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/CS1.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/Cpu.o: ../Generated_Code/Cpu.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #14 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/Cpu.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/Cpu.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/FMSTR1.o: ../Generated_Code/FMSTR1.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #15 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/FMSTR1.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/FMSTR1.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/FMSTR_UART1.o: ../Generated_Code/FMSTR_UART1.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #16 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/FMSTR_UART1.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/FMSTR_UART1.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/GI2C1.o: ../Generated_Code/GI2C1.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #17 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/GI2C1.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/GI2C1.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/I2C2.o: ../Generated_Code/I2C2.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #18 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/I2C2.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/I2C2.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/KSDK1.o: ../Generated_Code/KSDK1.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #19 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/KSDK1.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/KSDK1.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/LED1.o: ../Generated_Code/LED1.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #20 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/LED1.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/LED1.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/LED2.o: ../Generated_Code/LED2.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #21 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/LED2.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/LED2.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/LED3.o: ../Generated_Code/LED3.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #22 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/LED3.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/LED3.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/LEDpin4.o: ../Generated_Code/LEDpin4.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #23 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/LEDpin4.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/LEDpin4.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/LEDpin5.o: ../Generated_Code/LEDpin5.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #24 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/LEDpin5.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/LEDpin5.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/LEDpin6.o: ../Generated_Code/LEDpin6.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #25 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/LEDpin6.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/LEDpin6.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/MMA1.o: ../Generated_Code/MMA1.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #26 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/MMA1.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/MMA1.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/PE_LDD.o: ../Generated_Code/PE_LDD.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #27 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/PE_LDD.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/PE_LDD.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/Rx1.o: ../Generated_Code/Rx1.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #28 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/Rx1.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/Rx1.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/Tx1.o: ../Generated_Code/Tx1.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #29 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/Tx1.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/Tx1.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/USB1.o: ../Generated_Code/USB1.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #30 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/USB1.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/USB1.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/USBInit1.o: ../Generated_Code/USBInit1.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #31 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/USBInit1.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/USBInit1.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/UTIL1.o: ../Generated_Code/UTIL1.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #32 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/UTIL1.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/UTIL1.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/Vectors.o: ../Generated_Code/Vectors.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #33 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/Vectors.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/Vectors.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/WAIT1.o: ../Generated_Code/WAIT1.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #34 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/WAIT1.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/WAIT1.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/freemaster_Kxx.o: ../Generated_Code/freemaster_Kxx.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #35 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/freemaster_Kxx.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/freemaster_Kxx.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/freemaster_appcmd.o: ../Generated_Code/freemaster_appcmd.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #36 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/freemaster_appcmd.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/freemaster_appcmd.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/freemaster_bdm.o: ../Generated_Code/freemaster_bdm.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #37 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/freemaster_bdm.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/freemaster_bdm.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/freemaster_can.o: ../Generated_Code/freemaster_can.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #38 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/freemaster_can.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/freemaster_can.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/freemaster_pipes.o: ../Generated_Code/freemaster_pipes.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #39 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/freemaster_pipes.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/freemaster_pipes.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/freemaster_protocol.o: ../Generated_Code/freemaster_protocol.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #40 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/freemaster_protocol.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/freemaster_protocol.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/freemaster_rec.o: ../Generated_Code/freemaster_rec.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #41 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/freemaster_rec.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/freemaster_rec.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/freemaster_scope.o: ../Generated_Code/freemaster_scope.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #42 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/freemaster_scope.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/freemaster_scope.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/freemaster_serial.o: ../Generated_Code/freemaster_serial.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #43 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/freemaster_serial.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/freemaster_serial.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/freemaster_sfio.o: ../Generated_Code/freemaster_sfio.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #44 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/freemaster_sfio.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/freemaster_sfio.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/freemaster_tsa.o: ../Generated_Code/freemaster_tsa.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #45 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/freemaster_tsa.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/freemaster_tsa.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/freemaster_tsa_table.o: ../Generated_Code/freemaster_tsa_table.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #46 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/freemaster_tsa_table.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/freemaster_tsa_table.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/usb_cdc.o: ../Generated_Code/usb_cdc.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #47 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/usb_cdc.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/usb_cdc.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/usb_cdc_pstn.o: ../Generated_Code/usb_cdc_pstn.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #48 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/usb_cdc_pstn.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/usb_cdc_pstn.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/usb_class.o: ../Generated_Code/usb_class.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #49 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/usb_class.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/usb_class.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/usb_dci_kinetis.o: ../Generated_Code/usb_dci_kinetis.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #50 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/usb_dci_kinetis.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/usb_dci_kinetis.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/usb_descriptor.o: ../Generated_Code/usb_descriptor.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #51 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/usb_descriptor.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/usb_descriptor.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/usb_driver.o: ../Generated_Code/usb_driver.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #52 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/usb_driver.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/usb_driver.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/usb_framework.o: ../Generated_Code/usb_framework.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #53 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/usb_framework.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/usb_framework.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/wdt_kinetis.o: ../Generated_Code/wdt_kinetis.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #54 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Generated_Code/wdt_kinetis.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Generated_Code/wdt_kinetis.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+

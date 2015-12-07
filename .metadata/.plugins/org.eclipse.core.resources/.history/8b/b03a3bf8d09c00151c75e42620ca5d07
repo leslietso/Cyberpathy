@@ -1,0 +1,17 @@
+/*
+ * mpu6050.c
+ *
+ *  Created on: Dec 7, 2015
+ *      Author: Leslie
+ */
+#include "mpu6050.h"
+
+uint8_t MPU6050_Init(void)
+{
+	//GI2C1_WriteByteAddress8(MPU_addr, WUP_addr, 0x01); /* enable device */
+	GI2C1_WriteByteAddress8(MPU_addr, MMA1_CTRL_REG_1, MMA1_ACTIVE_BIT_MASK); /* enable device */
+	
+	return 0;
+}
+
+

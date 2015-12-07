@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+  Copyright : 2012 Freescale, Inc. All Rights Reserved.
+
+  This configuration file is a standard interchange file that's format is maintained
+  by Freescale, Inc. The configuration file is a derivative work
+  of the Processor Expert Software technology licensed for use by customers
+  as defined as SOFTWARE in the product's End User License Agreement. This file
+  and format are free to use and distribute for read-only purposes. You do not have
+  the right to create these files or modify this format or use for any purposes other
+  than interchange with the Processor Expert Software technology.
+
+  THIS SOFTWARE IS PROVIDED "AS IS".
+
+  NO WARRANTIES, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, BUT NOT
+  LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+  PURPOSE APPLY TO THIS SOFTWARE. IN NO EVENT WILL FREESCALE BE LIABLE, WHETHER
+  IN CONTRACT, TORT, OR OTHERWISE, FOR ANY INCIDENTAL, SPECIAL, INDIRECT,
+  CONSEQUENTIAL OR PUNITIVE DAMAGES, INCLUDING, BUT NOT LIMITED TO, DAMAGES FOR
+  ANY LOSS OF USE, LOSS OF TIME, INCONVENIENCE, COMMERCIAL LOSS, OR LOST PROFITS,
+  SAVINGS, OR REVENUES TO THE FULL EXTENT SUCH MAY BE DISCLAIMED BY LAW.
+
+-->
+<export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ProjectInfoDescription.xsd">
+  <PROCESSOR>
+    <DeviceID>MKL25Z128xxx4</DeviceID>
+    <CoreNum>1</CoreNum>
+    <Cores>
+      <Core>
+        <CoreSet>Cortex-M0+</CoreSet>
+      </Core>
+    </Cores>
+    <SRAMsize>16k</SRAMsize>
+    <FLASHsize>128k</FLASHsize>
+  </PROCESSOR>
+  <PATHS>
+    <LinkerCommandFile>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Project_Settings\Linker_Files\ProcessorExpert.ld</LinkerCommandFile>
+    <IncludePaths>
+      <Path>C:\Freescale\CW MCU v10.6.4\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\</Path>
+      <Path>C:\Freescale\CW MCU v10.6.4\MCU\ProcessorExpert\lib\Kinetis\iofiles\</Path>
+      <Path>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Sources\</Path>
+      <Path>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\</Path>
+    </IncludePaths>
+    <SourceCodePaths>
+      <Path>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\</Path>
+      <Path>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Project_Settings\Startup_Code\</Path>
+      <Path>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Sources\</Path>
+    </SourceCodePaths>
+  </PATHS>
+  <FILES>
+    <GeneratedCs>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\BitIoLdd3.c</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\BitIoLdd4.c</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\BitIoLdd6.c</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\BitIoLdd7.c</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\Bits1.c</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\CI2C1.c</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\CS1.c</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\Cpu.c</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\GI2C1.c</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\HIDK2.c</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\LEDB.c</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\LEDG.c</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\LEDR.c</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\LEDpin2.c</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\LEDpin3.c</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\LEDpin4.c</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\MMA1.c</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\PE_LDD.c</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\SW1.c</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\Tx3.c</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\USB0.c</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\USB1.c</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\Vectors.c</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\WAIT1.c</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\usb_class.c</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\usb_dci_kinetis.c</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\usb_descriptor.c</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\usb_driver.c</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\usb_framework.c</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\usb_hid.c</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\wdt_kinetis.c</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Project_Settings\Startup_Code\__arm_end.c</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Project_Settings\Startup_Code\__arm_start.c</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Sources\Application.c</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Sources\Events.c</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Sources\ProcessorExpert.c</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Sources\mpu6050.c</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Sources\sa_mtb.c</PathName>
+    </GeneratedCs>
+    <GeneratedHs>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\BitIoLdd3.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\BitIoLdd4.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\BitIoLdd6.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\BitIoLdd7.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\Bits1.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\CI2C1.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\CS1.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\Cpu.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\FSL_USB_Stack_Config.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\GI2C1.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\HIDK2.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6.4\MCU\ProcessorExpert\lib\Kinetis\iofiles\MKL25Z4.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\IO_Map.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\LEDB.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\LEDG.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\LEDR.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\LEDpin2.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\LEDpin3.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\LEDpin4.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\MMA1.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6.4\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\ADC_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6.4\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\CMP_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6.4\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\COP_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6.4\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\DAC_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6.4\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\DMAMUX_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6.4\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\DMA_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6.4\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\FTFA_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6.4\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\GPIO_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6.4\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\I2C_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6.4\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\LPTMR_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6.4\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\MCM_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6.4\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\PDD_Types.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6.4\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\PIT_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6.4\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\PORT_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6.4\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\RTC_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6.4\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\SIM_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6.4\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\SPI_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6.4\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\SysTick_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6.4\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\TPM_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6.4\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\UART0_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6.4\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\UART_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6.4\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\USB_PDD.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\PE_Const.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\PE_Error.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\PE_LDD.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\PE_Types.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\SW1.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\Tx3.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\USB0.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\USB1.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\USB_Config.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\WAIT1.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\derivative.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\hidef.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\types.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\usb_bdt_kinetis.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\usb_class.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\usb_dci_kinetis.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\usb_dciapi.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\usb_descriptor.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\usb_devapi.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\usb_framework.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\usb_hid.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\usb_user_config.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Generated_Code\wdt_kinetis.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Project_Settings\Startup_Code\runtime_configuration.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Sources\Application.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Sources\Events.h</PathName>
+      <PathName>C:\Users\Leslie\workspace\Freedom_USB_HID_Mouse\Sources\mpu6050.h</PathName>
+    </GeneratedHs>
+  </FILES>
+  <OPTIONS>
+  </OPTIONS>
+</export>
